@@ -5,7 +5,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+
+
     }
+
+
+
 
     public static String play(int number) {
         if (number % 3 == 0 && number % 5 == 0) {
