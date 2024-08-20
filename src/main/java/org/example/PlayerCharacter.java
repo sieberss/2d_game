@@ -14,8 +14,20 @@ public class PlayerCharacter {
     }
 
     public static void move(char userInput) {
-        if (userInput == 'W') {y++;};
+        if (userInput == 'W') {
+            y++;
+        }
+        ;
+        if (userInput == 'S') {
+            y--;
+        }
+        ;
+        if (userInput == 'D') {
+            x++;
+        }
+        ;
+        if (userInput == 'A') {
+            x--;
+        }
 
-    }
-
-}
+    } }
